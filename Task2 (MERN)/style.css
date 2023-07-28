@@ -1,0 +1,411 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+font-family: 'Lato',sans-serif;
+}
+#main{
+    width:100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color:#2C2C2E ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav1{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+.nav2 h3{
+    font-size: 1.75rem;
+    font-family: 'gilroy',sans-serif;
+    letter-spacing: .8px;
+    font-weight: 600;
+   text-shadow: 0 0 12px ;
+   padding-left:12rem;
+    color: #EDEDED;
+}
+.nav3 {
+    font-size: 20px;
+    color: #fff;
+    padding:4rem;
+
+}
+.nav3 i {
+   margin-left: 1rem;
+   cursor: pointer;
+}
+.frontpage{
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100% - 55px);
+    background:linear-gradient(#131114,#272729,#434343,#252525,#242424);
+    display: flex;
+    position: relative;
+}
+.frontpage img{
+    height: 99%;
+    animation: hide ;
+    animation-name: hide;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes hide {
+    from{
+       opacity: 0;
+       scale: 2;
+    }
+    to{
+      opacity: 100%;
+    }
+}
+.text{
+    padding: 10rem 5rem;
+    animation: zoomin ;
+    animation-name : zoomin ;
+    animation-duration: 2s;
+    animation-delay: 0.25;
+    animation-fill-mode: forwards;
+ }
+ @keyframes zoomin {
+    from{
+        width: 100%;
+        opacity: 0;
+
+    }
+    to {
+        margin-left: 1.25%;
+        width: 80%;
+      }
+    
+ }
+
+.text h3{
+    font-size: .1.52rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+.text h1{
+    font-size: 5.14rem;
+    font-weight: 600;
+    color: #fff;    
+    padding-bottom: 1rem;
+    
+}
+.text p{
+    font-size: 1.05rem;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+.text span a{
+    margin-left: 25rem;
+    color: royalblue;
+}
+.Box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 2rem;
+    
+ 
+
+}
+
+/*  */
+.boxes{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 6rem; 
+    background-color: #ffff;
+   
+
+}
+.boxes img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.left_part{
+    width: 70%;
+    height: 100%;
+
+}
+.left_part .up{
+    width: 100%;
+    height: 39%;
+    background-image: url(https://img.freepik.com/free-photo/light-lamp-white-wall_1203-6722.jpg?size=626&ext=jpg);
+    background-position: right;
+    background-size: contain;
+background-repeat: no-repeat;
+background-color: #FCFCFC;
+box-shadow: 2px 5px 5px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    
+    }
+    .left_part .up h1 {
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 500;
+        
+        padding-left: 13rem;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+     
+    }
+    .left_part .up a{
+        padding-left: 13rem;
+        font-size: 13px;
+        color: #000;
+        text-decoration: none;
+        
+    }
+    .divleft{
+        width: 100%;
+    height:60%;
+ 
+    display: flex;
+    }
+    .left1{
+        width: 50%;
+        height: 100%;
+        margin-right: 15px;
+        background-color: yellow;
+        background-image: url(https://img.freepik.com/premium-photo/modern-white-lamp-cabinet-with-clean-wall-mockup-3d-rendering_613230-529.jpg?size=626&ext=jpg);
+        background-position: right;
+        background-size: cover;
+        border-radius: 25px;
+        box-shadow: 2px 5px 5px;
+
+    }
+    .left1 h1{
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 500;
+        padding-top: 11.5rem;
+        padding-left: 2rem;
+    }
+    .left1 a{
+        font-size: 13px;
+        padding-left: 2rem;
+        color: #000;
+        text-decoration: none;
+    }
+    .left2{
+        width: 50%;
+        height: 100%;
+        background-color: rebeccapurple;
+        border-radius: 25px;
+        background-image: url(https://img.freepik.com/free-photo/wall-elegant-electricity-decor-background_1203-5160.jpg?size=626&ext=jpg);
+        background-position: right;
+        background-position: center;
+        box-shadow: 2px 5px 5px;
+    }
+    .left2 h1{
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 500;
+        padding-top: 11.5rem;
+        padding-left: 2rem;
+    }
+    .left2 a{
+        font-size: 13px;
+        padding-left: 2rem;
+        color: #000;
+        text-decoration: none;
+    }
+    .right_part{
+        width: 30%;
+        height: 100%;
+        background-color: rgb(155, 119, 73);
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-image: url(https://img.freepik.com/free-vector/realistic-modern-stylish-golden-white-standard-lamp-vector-illustration_1284-66950.jpg?size=626&ext=jpg);
+        background-position: left;
+        position: relative;
+        box-shadow: 2px 5px 5px;
+
+    }
+
+    .right_part h1 {
+        text-transform: uppercase;
+        padding-top: 25rem;
+        padding-left: 2rem;
+        font-size: 28px;
+        font-weight: 500;
+        
+    }
+    .right_part a{
+        padding-left: 2rem;
+        font-size: 13px;
+        color: #000;
+        text-decoration: none;
+        
+    }
+
+
+.feature{
+    width: 100%;
+    height: 150%;
+    margin-top: 5rem;
+    position: relative;
+}
+.text_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text_line a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 2rem;
+}
+.text_line h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    font-size: 1rem;
+    margin-left: 3.1rem;
+    margin-bottom: 3rem;
+}
+.card_img img{
+   width: 300px;
+   height: 300px;
+    border-radius: 15px;
+    background-color: #000;
+    margin-bottom: 12px;
+
+}
+
+
+.card_des span{
+    color: lightgray;
+    text-decoration: line-through;
+    margin-left: 1rem;
+    font-size: .85rem;
+}
+
+.card_des h1{
+    font-size: 1.25rem;font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.card_des h4{
+    font-size: .85rem;
+    font-weight: 100;
+    padding-bottom: 1px;
+}
+.card_des h2{
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgb(140, 153, 194);
+}
+.newsletter{
+    width: 100%;
+    height: 40%;
+    background-color: #ECEDF1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.newsletter h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    padding-bottom: 2rem;
+}
+.newsletter p{
+    font-size: 15px;
+}
+.input_btn{
+    background-color: #000;
+    height: 45px;
+    width: 400px;
+    
+}
+.input_btn input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    border-bottom: 3px solid #000;
+    
+}
+.input_btn button{
+    padding: 12px 9px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    border: none;
+
+}
+footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222222;
+    padding-top: 5rem;
+
+}
+footer .col{ 
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+
+}
+footer .col p{
+    color: #535353;
+}
+footer .col a{
+    text-decoration: none;
+    color: #535353;
+}
+footer .col h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+footer .col h2{
+    text-shadow: 0 0 12px;
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
